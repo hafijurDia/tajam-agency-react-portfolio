@@ -1,0 +1,307 @@
+ /* `xs` returns only a ruleset and no media query
+  {  } */
+
+ /* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .team-arrow-left, .team-arrow-right {
+       display: none !important;
+    }
+    .footer-bottom-left ul {
+      
+        font-size: 12px;
+    }
+    .footer-bottom-right p {
+        font-size: 13px;
+        margin-left: 10px;
+    }
+    .footer-top-middle h4, .footer-top-right h4 {
+       
+        font-size: 13px;
+    }
+    .footer-top-left p,.footer-top-middle p {
+         
+       
+        font-size: 12px;
+       
+    }
+    .footer-top-left{
+        text-align: center;
+    }
+    .footer-top-right {
+       
+        display: inline-block;
+        text-align: center;
+        margin: 0 auto;
+    }
+  }
+
+ /* `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {  
+    .banner-text h2 {
+       
+        font-size: 25px;
+        
+    }
+    .banner-text p {
+       
+        font-size: 13px;
+        
+    }
+    .about-text h2 {
+        
+        font-size: 18px;
+       
+    }
+    .about-text p {
+       
+        font-size: 13px;
+       
+    }
+    .service-head h2 {
+     
+        font-size: 18px;
+        
+    }
+    .service-head p {
+       
+        font-size: 12px;
+        
+    }
+    .service-text h5 {
+        
+        font-size: 12px;
+        
+    }
+    .service-text p {
+        
+     
+        font-size: 12px;
+        
+    }
+    .team-top-text h3 {
+        
+        font-size: 16px;
+        
+    }
+    .team-top-text p {
+       
+        font-size: 12px;
+        
+    }
+    .project-part-left h3 {
+        
+        font-size: 15px;
+        
+    }
+    .project-part-right p {
+       
+        font-size: 13px;
+      
+    }
+    .team-slider-text p {
+        
+        font-size: 14px;
+       
+    }
+    .team-slider-text h4 {
+        
+        font-size: 12px;
+       
+    }
+    .contact-left h3, .contact-right h3 {
+        
+        font-size: 18px;
+        
+    }
+    .team-arrow-left {
+        top: 80% !important;
+        left: 13% !important;
+    }
+    .team-arrow-right {
+        top: 80% !important;
+        right: 15% !important;
+    }
+    .footer-top-right {
+        
+        text-align: center !important;
+        display: inline-block !important;
+        margin: 0 auto !important;
+    }
+    .footer-top-left {
+       
+        display: inline-block;
+        margin: 0 auto;
+        margin-left: 148px;
+    }
+    .footer-top-left p {
+        margin-right: -41px !important;
+    }
+    .footer-top-middle{
+        display: inline-block;
+        margin: 0 auto;
+        margin-left: 55px;
+    }
+    .footer-top-middle h4 {
+       
+        display: inline-block;
+        text-align: center;
+        margin: 0 auto;
+        margin-left: -50px !important;
+        padding-bottom: 17px;
+    }
+    .footer-top-middle p {
+      
+        text-align: center;
+        display: inline-block;
+        margin: 0 auto;
+        margin-left: -10px !important;
+    }
+    .footer-top-right h4{
+        padding-bottom: 20px !important;
+    }
+    .footer-top-right {
+        
+        padding-top: 14px;
+       
+    }
+    .footer-bottom-text {
+       
+        display: inline-block;
+        margin: 0 auto;
+        
+        margin-left: 135px;
+    }
+    .footer-bottom-right {
+        text-align: center;
+        margin-right: 60px;
+    }
+}
+
+ /* `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    .navbar-light .navbar-nav .nav-link {
+        
+        text-align: center;
+    }
+    .navbar-nav {
+        
+        background: #f0eaed61;
+    }
+    .navbar-light .navbar-toggler {
+      
+        background: #ffffff;
+    }
+    .banner-text {
+        
+        padding-top: 130px;
+        padding-bottom: 150px;
+    }
+    .about-text h2 {
+        
+        text-align: center;
+        padding-top: 20px;
+    }
+    .about-text p {
+       
+        padding-bottom: 20px;
+    }
+    .about-text a {
+        
+        width: 100%;
+        text-align: center;
+    }
+    #video-part {
+       
+        padding: 100px 0;
+    }
+    .service-text {
+        padding-top: 30px;
+    }
+    .team-bottom-text a {
+       
+        width: 100%;
+        display: block;
+    }
+    .project-btn a {
+       
+        width: 100%;
+    }
+    .team-arrow-left {
+        top: 80% !important;
+        left: 20% !important;
+    }
+    .team-arrow-right {
+        top: 80% !important;
+        right: 21% !important;
+    }
+    .contact-left a {
+        
+        width: 100%;
+        text-align: center;
+    }
+    .contact-left h3, .contact-right h3 {
+        text-align: center;
+        padding-top: 30px;
+    }
+    .footer-top-text {
+        
+        text-align: center;
+    }
+    .footer-top-left img {
+        
+        margin-left: -193px;
+    }
+    .footer-top-left p {
+       
+        margin-left: -100px;
+    }
+    .footer-top-middle h4, .footer-top-right h4 {
+        padding-top: 29px;
+    }
+    .footer-top-right{
+        margin: 0px -85px 0px 200px;
+    }
+    .footer-top-middle p {
+       
+        padding: 0px 20px 0px 0px;
+    }
+    .footer-top-right ul {
+        padding: 0;
+        margin: 10px -89px 0px -40px;
+       
+    }
+    .center {
+        text-align: center;
+        display: inline-block;
+       
+    }
+    .center-btn {
+        
+        margin: -35px -55px 0px 213px;
+    }
+ }
+
+ /* `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+    .team-arrow-left {
+        top: 77%;
+        left: 24%;
+    }
+    .team-arrow-right {
+        top: 77%;
+        right: 26%;
+    }
+    
+    .footer-top-middle h4, .footer-top-right h4 {
+        
+        padding-top: 18px;
+    }
+    .btn-custom {
+       
+        margin-right: -47px;
+        padding: 5px 23px;
+    }
+ }
+
+ /* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {  }
